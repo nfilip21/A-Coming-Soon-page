@@ -1,7 +1,3 @@
-/*
-* General
-*/
-
 body {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
@@ -54,16 +50,8 @@ body, .navbar-light .navbar-brand {
   color: rgb(209, 209, 209);
 }
 
-.text-muted {
-  color: rgb(236, 236, 236) !important;
-}
-
 .cover-container::before {
-  background-image: linear-gradient(to top, rgb(17, 17, 17), rgba(17, 17, 17, .4));
-}
-
-.cover-container {
-  background-color: rgb(17, 17, 17);
+  background-image: linear-gradient(to top, rgb(2, 2, 2), rgba(6, 6, 6, .4));
 }
 
 body {
@@ -81,9 +69,6 @@ footer {
   background-color: rgb(122, 122, 122);
 }
 
-.timestamp::after {
-  background-color: rgb(209, 209, 209);
-}
 
 @media (min-width: 767px) {
   .li.complete .status {
@@ -105,25 +90,11 @@ hr {
 }
 
 .square {
-  background: rgb(17, 17, 17);
+  background: #ea1538;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
-
-#scrolldown i {
-  color: rgb(209, 209, 209);
-}
-
-#loading {
-  background-color: rgb(13, 13, 12);
-}
-
-.double-bounce1, .double-bounce2 {
-  background-color: #333;
-}
-
-
 
 @media (max-width: 575px) {
   footer .copysect, footer .socialsect {
